@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/walkingdevs/rebelator.svg?branch=master)](https://travis-ci.org/walkingdevs/rebelator)
+[![Download](https://api.bintray.com/packages/walkingdevs/mvn/rebelator/images/download.svg)](https://bintray.com/walkingdevs/mvn/rebelator/_latestVersion)
+
 ## Usage
     <build>
         <plugins>
