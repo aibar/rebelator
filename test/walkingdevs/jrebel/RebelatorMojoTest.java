@@ -10,6 +10,10 @@ public class RebelatorMojoTest extends Assert {
     @Test
     public void shouldCrack() throws MojoExecutionException {
         new RebelatorMojo().execute();
-        assertTrue(new File(System.getProperty("user.home") + "/.jrebel/jrebel.prefs").exists());
+        assertTrue(
+            new File(
+                System.getProperty("user.home") + "/.jrebel/jrebel.prefs"
+            ).exists()
+        );
     }
 }

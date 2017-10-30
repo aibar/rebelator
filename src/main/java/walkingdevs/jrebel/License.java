@@ -1,9 +1,0 @@
-package walkingdevs.jrebel;
-
-class License {
-    static byte[] bytes() {
-        return java.util.Base64.getDecoder().decode(KEY);
-    }
-
-    private static final String KEY = "eJxjYGAQySqKz8wrLknMyUksyczPi08vzUxhYGDQMc5ODEmscCw3CDQMLQmLijTzyTfKKSxNdowIyXMz9qtwL02N9DEr8Co1TbYFqucvLU5NiU/OzytJzMxLLSoGCnGH+Pu6uioY6pnrGQG58kCbikuTipOLMgvANpXkZ6fmxRdnpucllpQWpTIwMDJkfO3gMj+x8V3PpysrfmtdP/s4RuH3jrcxdjMEBPhKZu6ffCe30r2/94Lgt/714jE9mq+nLg6s3bny1Dq/mbdvSr/gUnY+O31hXtjf4zsEz3JcjtLm7RDY/eFN5UK5ly/UZ6X/Y8848KV2Fsthh6N/L6487/fW9N4xUT4pDybVUFXPgMo/d8QYI14tl1yqwbg07Xnt1zmXnJ5LC/xk/5/G+jqp1+i44hHdi0wrrvjJXFzd4PU/cqW2oGQWU7HEqmvPv/n1rWuKvG7o/X1Ra2nEokdZq4wKbVO53Rb/z886rZe9oXuVr9S6E/U94nnG5kdyNC+npSz10zlw88CVLjW9f/ftYm01V3dPT5Boj5sGCsjEnMzEYl1QNOgWp+aVAIVYSopKgcHDIIo1BIESxYYmxsYmxkaGlpaGFmbWYJ65qTGIZwnmmRpamEJ4Pp7Orn7BrvHBrkFhrkHxbj6O7jrB/s6ejj5gNlDe1zPE1SUeqs46Ldks26QsMyutotzW2qfMKTgrvzjU2dkRFOfiQPcklpZkAF2ZmZyI4qKUX58+FZqW6r7oeHt9N+8ERtWFK4yzSy9xrZ5ezrtoDvOkHMGiT3zs01RP93/RP+apZ3WuaWVy78HfDzjMxcL2cE1kdZTqyS5jZJsjof6sX2GK81yh+uJI5rU/J6+s0i488/dny5N1U1Q0gPZIY09U+eXANAiU5vVKLEtUcM5IzC0ASgIF9HEkwhKg84uBviiOL0otyC8qycxLj8/NTwGFOpORAZDUxK6xoCg/pTS5JD4lFS4DVCzkFZSalJqjEJyfnJmYoxCQkwgWzUksLtEFWlVUUlqgm5xfCo5cRkOQVFJRfnlxapFuUWo60B2pRakpsHgHAGMNZOA=";
-}

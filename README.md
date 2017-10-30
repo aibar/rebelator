@@ -2,9 +2,9 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>walkingdevs.jrebel</groupId>
+                <groupId>walkingdevs</groupId>
                 <artifactId>rebelator</artifactId>
-                <version>1</version>
+                <version>3</version>
             </plugin>
         </plugins>
     </build>
